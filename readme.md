@@ -26,9 +26,7 @@ This simulator calculates these probabilities, for any set of teams and countrie
 The simulator generates **all valid draw configurations** between 8 group winners and 8 runners-up.  
 Each configuration follows the UEFA rules. The probability of a matchup (e.g., *PSG vs Liverpool*) is then:
 
-\[
-P(\text{PSG-Liverpool}) = \frac{\text{Number of valid draws with this match}}{\text{Total number of valid draws}}
-\]
+P(PSG−Liverpool) = (Number of valid draws with this match) / (Total number of valid draws)
 
 Because 8! = 40,320 possible draws exist in the unrestricted case, computation can take a few minutes — but it’s fully exhaustive and accurate.
 
